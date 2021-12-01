@@ -1,4 +1,4 @@
-const { test, readInput } = require("../utils")
+const { test, readInput } = require("../utils");
 
 const prepareInput = (rawInput) => {
   return rawInput.trim().split('\n').map(Number);
