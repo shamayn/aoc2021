@@ -1,0 +1,27 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "advent of code",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamayn/aoc2021.git"
+  },
+  "author": "shamayn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamayn/aoc2021/issues"
+  },
+  "homepage": "https://github.com/shamayn/aoc2021#readme",
+  "devDependencies": {
+    "jest": "^27.4.2"
+  },
+  "dependencies": {
+    "@arrows/composition": "^1.2.2",
+    "shelljs": "^0.8.4"
+  }
+}
