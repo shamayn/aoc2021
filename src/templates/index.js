@@ -15,7 +15,8 @@ const goB = (input) => {
 
 /* Tests */
 
-// test(result, expected);
+// test(goA(testInput), expected);
+// test(goB(testInput), expected);
 
 /* Results */
 

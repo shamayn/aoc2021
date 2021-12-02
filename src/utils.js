@@ -12,7 +12,7 @@ const readInput = (filename) => {
     .concat(filename)
     .join(sep);
 
-  return readFileSync(file).toString();
+  return readFileSync(file).toString().trim().split('\n');
 }
 
 let index = 0;

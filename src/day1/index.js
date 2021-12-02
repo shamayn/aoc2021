@@ -1,7 +1,7 @@
 const { test, readInput } = require('../utils');
 
 const prepareInput = (rawInput) => {
-  return rawInput.trim().split('\n').map(Number);
+  return rawInput.map(Number);
 };
 
 const input = prepareInput(readInput('input.txt'));
