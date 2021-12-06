@@ -89,13 +89,14 @@ test(goA(testInput), 5);
 test(goB(testInput), 12);
 test(isDiagonal([1, 1], [3, 3]), true);
 test(isDiagonal([9, 7], [7, 9]), true);
+test(findDimensions(testInput), [9, 9]);
 
 /* Results */
 
-console.time('Time');
+// console.time('Time');
 const resultA = goA(input);
 const resultB = goB(input);
-console.timeEnd('Time');
+// console.timeEnd('Time');
 
 console.log('Solution to part 1:', resultA);
 console.log('Solution to part 2:', resultB);
