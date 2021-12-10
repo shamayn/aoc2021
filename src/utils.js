@@ -24,7 +24,7 @@ const test = curry((result, expected) => {
     console.log(kleur.green(`Test ${index}: passed`));
   } else {
     console.log(kleur.gray("-----------------------------------------"));
-    console.log(kleur.red(`${index}: failed`));
+    console.log(kleur.red(`Test ${index}: failed`));
     console.log(kleur.gray("\nResult:"));
     console.dir(result, { colors: true, depth: 0 });
     console.log(kleur.gray("\nExpected:"));
