@@ -4,6 +4,15 @@ const prepareInput = (rawInput) => rawInput.map((row) => row.split('').map(Numbe
 
 const input = prepareInput(readInput('input.txt'));
 const testInput = prepareInput(readInput('testinput.txt'));
+const smallTestInput = prepareInput([
+  'start-A',
+  'start-b',
+  'A-c',
+  'A-b',
+  'b-d',
+  'A-end',
+  'b-end',
+]);
 
 const findAdjacentPoints = (input, point) => { // point in [x,y]
   var adjpoints = [];
